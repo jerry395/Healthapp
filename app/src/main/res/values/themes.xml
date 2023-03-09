@@ -1,0 +1,85 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Prueb1" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primaryVariant</item>
+        <item name="colorOnPrimary">@color/primaryText</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondaryVariant</item>
+        <item name="colorOnSecondary">@color/secondaryText</item>
+        <item name="colorError"> @color/error</item>
+        <item name="colorOnError">@color/error</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="shapeAppearanceSmallComponent">@style/shapeAppearance.Mintic.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/shapeAppearance.Mintic.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/shapeAppearance.Mintic.Large</item>
+        <item name="textAppearanceButton">@style/Theme.Prueb1.TextAppearanceButton</item>
+        <item name="colorControlNormal">@color/white</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Prueb1.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Prueb1.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Prueb1.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    
+    <style name="shapeAppearance.Mintic.Small" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+
+        <item name="cornerSize">@dimen/corner_size</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+
+    <style name="shapeAppearance.Mintic.Medium" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+
+        <item name="cornerSize">@dimen/corner_size</item>
+        <item name="cornerFamily">rounded</item>
+
+    </style>
+
+    <style name="shapeAppearance.Mintic.Large" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+
+        <item name="cornerSize">@dimen/corner_size</item>
+        <item name="cornerFamily">rounded</item>
+
+    </style>
+
+    <style name="cutImage" parent="">
+
+        <item name="cornerSize">50%</item>
+        <item name="cornerFamily">cut</item>
+
+    </style>
+    
+    <style name="Theme.Prueb1.TextAppearanceButton" parent="Widget.MaterialComponents.Button"> 
+    
+        <item name="fontFamily">@font/lato_bold</item>
+        <item name="android:textSize">@dimen/text_button_size</item>
+        <item name="textAllCaps">true</item>
+    
+    </style>
+    
+    <style name="Theme.Prueb1.Body1"  parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/lato</item>
+        <item name="android:textSize">@dimen/text_button_size</item>
+    </style>
+
+    <style name="Theme.Prueb1.caption"  parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/lato</item>
+
+    </style>
+
+    <style name="Theme.Prueb1.Headline5"  parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/lato_bold</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="fontWeight">700</item>
+        <item name="android:textSize">@dimen/headline_button_size</item>
+    </style>
+    
+</resources> 

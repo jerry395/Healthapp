@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Prueb1</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_hint">Ingrese correo electronico</string>
+    <string name="password_hint">Ingrese la contraseña</string>
+    <string name="forgot_pass">Olvidaste la contraseña</string>
+    <string name="login_label">Ingresar</string>
+    <string name="no_tengo_una_cuenta">No tengo una cuenta</string>
+    <string name="Registrate_Ahora">Registrate ahora</string>
+    <string name="change_password">Cambiar contraseña</string>
+    <string name="name_label">Ingrese el nombre</string>
+    <string name="tengo_cuenta">Tengo cuenta</string>
+    <string name="iniciar_sesion">Iniciar sesion</string>
+    <string name="Maculino">Maculino</string>
+    <string name="Femenino">Femenino</string>
+    <string name="Otro">Otro</string>
+    <string name="Home_label">Home</string>
+    <string name="localization_label">Localizacion</string>
+    <string name="specialist_label">Especialistas</string>
+    <string name="profile_label">Perfil</string>
+    <string name="home_tittle">Cambia tu vida para mejor</string>
+    <string name="home_subtitle">Agenda una cita y te ayudaremos con el problema al que te enfrentas</string>
+    <string name="home_recycler_title">Nuestros servicios</string>
+    <string name="specialist_title">Nuestras especialidades</string>
+    <string name="specialist_subtitle">Agenda una cita con una especialidad de tu preferencia</string>
+</resources>

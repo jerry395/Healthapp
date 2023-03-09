@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="big_marg">32dp</dimen>
+    <dimen name="icon_size">120dp</dimen>
+    <dimen name="Default_margin">16dp</dimen>
+    <dimen name="card_elevation">8dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="corner_size">16dp</dimen>
+    <dimen  name="text_button_size">12sp</dimen>
+    <dimen  name="headline_button_size">18sp</dimen>
+    <dimen name="toolbar_icon_size">120dp</dimen>
+    <dimen name="toolbar_icon_height">48dp</dimen>
+    <dimen name="service_icon_size">50dp</dimen>
+    <dimen name="stroke_size">2dp</dimen>
+
+</resources>
